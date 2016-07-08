@@ -31,7 +31,7 @@ var obj = {
     age: 23,  //It is number
     phone: ['(99) 99999 - 9999'],  // It an array
     address: {street: '12C'}, // It is an another object
-    getName: function(){ return this.name }; // It is a function
+    getName: function(){ return this.name } // It is a function
 };
 console.log(obj.name);
 console.log(obj.age);
