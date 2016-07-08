@@ -21,4 +21,16 @@ console.log(myFisrtObject.name);
 console.log(myFirstObject.age);
 ```
 
-You will see respectively 'Jhon' and 23. Thanks to read it. See you in the next article.
+You will see respectively 'Jhon' and 23. 
+
+What kind of types can we put in an Object? All the type it includes arrays, other objects, functions.
+
+```javascript
+var obj = {
+    name: 'Jhon',  // It is a string
+    age: 23,  //It is number
+    phone: [],  // It an array
+    adress: {street: '12C'},
+    getName: function(){ return this.name }; // It is a function
+}
+```
