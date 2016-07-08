@@ -14,7 +14,7 @@ var myFirstObject = {
 }
 ```
 
-So, 'name' and 'age' are the keys and 'Jhon' and 23 are the values, it is very important and easy to use, for example, to use it you just put:
+So 'name' and 'age' are the keys and 'Jhon' and 23 are the values. It is very important and easy to use for example to use it you just put:
 
 ```javascript
 console.log(myFisrtObject.name);
