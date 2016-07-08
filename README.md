@@ -3,9 +3,9 @@ My first english article
 
 ### Object in javascript
 
-Hi, today we're going to study new things about objtects in JavaScript.
+Hi, today we're going to study some things about objects in JavaScript.
 
-What is an Object? Object is a data type made to key and values. For example:
+What is an Object? Object is a data type made to keys and values. For example:
 
 ```javascript
 var myFirstObject = {
@@ -14,7 +14,7 @@ var myFirstObject = {
 }
 ```
 
-Well, 'name' and 'age' are the keys and 'Jhon' and 23 are the values, it is very important and easy to use, for example, to use it you just do:
+So, 'name' and 'age' are the keys and 'Jhon' and 23 are the values, it is very important and easy to use, for example, to use it you just put:
 
 ```javascript
 console.log(myFisrtObject.name);
