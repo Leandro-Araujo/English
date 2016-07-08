@@ -58,7 +58,7 @@ In this case you will see -undefined-, it is just a type value, it tell us "this
 var obj3 = {
     name: 'James'
 };
-var obj.address.street;
+var obj3.address.street;
 ```
 
 It will return to us a error.
