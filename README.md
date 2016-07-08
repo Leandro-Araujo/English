@@ -30,7 +30,7 @@ var obj = {
     name: 'Jhon',  // It is a string
     age: 23,  //It is number
     phone: [],  // It an array
-    adress: {street: '12C'},
+    adress: {street: '12C'}, // It is an another object
     getName: function(){ return this.name }; // It is a function
 }
 ```
