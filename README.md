@@ -61,4 +61,34 @@ var obj3 = {
 var obj3.address.street;
 ```
 
-It will return to us a error.
+It will return to us an error.
+
+Ok now we have another problem. See that:
+
+```javascript
+var obj4 = {
+    name: 'Jhon'
+};
+var rs = obj4;
+rs.name = 'Pedro';
+console.log(rs);
+console.log(obj4);
+```
+
+Did you see the problem? Well you are seeing the same result, but we have two variables, it happens because these two variables point to the same reference (The object). The question is: how to resolve it? Let's see:
+
+```javascript
+var Obj5 = function(){
+    this.name;
+};
+
+var obj6 = new Obj5;
+var obj7 = new Obj5;
+obj6.name = 'Jhon';
+obj7.name = 'James';
+console.log(obj6);
+console.log(obj7);
+```
+
+Well we just use function to create our object, with the 'new' ue do many objects.
+Finish! Thanks!
