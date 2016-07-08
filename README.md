@@ -21,4 +21,4 @@ console.log(myFisrtObject.name);
 console.log(myFirstObject.age);
 ```
 
-You will see respectively 'Jhon' and 23. Thanks to read it, see you in the next article.
+You will see respectively 'Jhon' and 23. Thanks to read it. See you in the next article.
